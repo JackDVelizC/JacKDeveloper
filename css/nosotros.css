@@ -1,0 +1,182 @@
+.banner-nosotros{
+    width: 100%;
+    background-image: url(../img/hhhh.jpg);
+    background-size: cover;
+    height: 300px;
+}
+.banner-nosotros h2{color: rgb(169, 243, 243);text-align: center;font-size: 30px;padding-top: 50px;
+}
+.banner-nosotros h2 span{color: white;font-size: 60px;}
+
+.bienvenida{
+    width: 100%;
+    padding: 0px 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.bienvenida h1{
+    font-size: 60px;
+    padding: 10px 20px;
+    border-bottom: 2px solid rgb(115, 157, 236);
+    color: rgb(52, 52, 165);
+}
+.te{padding: 0px 30px;}
+.text-nosotros{
+    padding: 15px 50px;
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 17px;
+    text-align: justify;
+    color: rgb(83, 83, 83);    
+}
+.title-confiar{
+    width: 80%;
+   /*  border-bottom:  2px solid rgb(115, 157, 236); */
+    padding: 10px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    color: rgb(52, 52, 165);
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.cajas-confiar{
+    width: 100%;
+    height: 390px;
+    padding: 0 50px;
+    display: grid;
+    grid-auto-rows: 300px;
+    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    background-image: url(../img/bg-caracteristicas.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 150px;
+}
+.cajas-p-confiar h2{color: rgb(248, 248, 248);
+font-size: 22px; font-family: Poppins;}
+.cajas-p-confiar{
+    margin-top: 40px;
+    font-family: Poppins;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(245, 243, 243);
+}
+.caja2{border-left: 2px solid white; border-right: 2px solid white;}
+.caja1{ border-right: 2px solid white;}
+
+
+/* /* /* media queris */
+@media (max-width: 1085px){
+    .bienvenida{
+        width: 100%;
+        padding: 0px 20px;
+    }
+    .cajas-confiar{
+        padding: 0;
+    }
+    .cajas-p-confiar{
+        padding: 0 5px;
+    }
+}
+
+@media (max-width: 920px){
+    .bienvenida{
+        width: 100%;
+        padding: 0px 50px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .img-banner-nosotros{width: 60%;margin: auto;}
+    .text-nosotros{ padding: 20px;}
+    .te h1{font-size: 50px;}
+
+     /* seccion de confianza */
+     .title-confiar{font-size: 22px;}
+     .cajas-confiar{
+         width: 100%;
+         height: 610px;
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         grid-auto-rows: 290px;
+        
+     }
+     .cajas-p-confiar{width: 70%; margin: auto;border: none; padding-top: 20px;
+     }
+    .caja2{border-top: 2px solid white;}
+    .caja-u{ border-top: 2px solid white;}
+
+    footer{
+        padding: 10px;
+    }
+}
+
+@media (max-width: 680px){
+    .banner-nosotros{height: 280px;}
+    .banner-nosotros h2{padding-top: 80px;}
+
+    .bienvenida{padding: 20px;}
+    .te h1{font-size: 40px;}
+    .te p{font-size: 15px;}
+
+    /* seccion de confianza */
+    .title-confiar{font-size: 18px;}
+    .cajas-confiar{
+        width: 100%;
+        height: 770px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows: 230px;
+        padding: 0 50px;
+        margin-bottom: 20px;
+    }
+    .caja1{display: none;}
+    .cajas-p-confiar{
+        width: 100%;
+        padding: 20px;
+        margin: 0;
+        border: none;
+        padding-top: 30px;
+    }
+    footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+    .redes-sociales{
+        border-bottom: 2px solid #444;
+    }
+    .menu-footer{
+        width: 100%;
+        padding-left: 80px;
+        margin: 0;
+        border: none;
+    }
+} 
+@media(max-width: 500px){
+    .te h1{font-size: 30px;}
+    .cajas-confiar{
+        width: 100%;
+        height: 900px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows: 280px;
+        padding: 0 40px;
+        margin-bottom: 20px;
+    }
+    .title-confiar{font-size: 15px;}
+    .caja-u{
+        margin: 0;
+        padding: 20px;
+    }
+}
+
+@media(max-width: 400px){
+    .menu-footer{
+        padding-left: 50px;
+        margin: 0;}
+}

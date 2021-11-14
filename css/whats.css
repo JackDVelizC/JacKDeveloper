@@ -1,0 +1,63 @@
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom: 80px;
+    right: 12px;
+	background-color:#14d14d;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  	font-size:30px;
+	/* box-shadow: 0px 0px 10px 2px rgb(53, 173, 23); */
+  	z-index:100;
+	  transition: 0.5s;
+}
+.float:hover {
+	text-decoration: none;
+	color: #fff;
+  	background-color:#02fc4d;
+	  transition: 0.5s;
+	  padding: 0;
+}
+.float i{
+	font-size: 37px;
+}
+.float i:hover{
+	padding: 0;
+	background:none;
+}
+
+.my-float{
+	margin-top:12px;
+}
+
+.sup-btn-whats{
+	font-family: Poppins;
+	background-color: rgb(29, 167, 70);
+	color: white;
+	padding: 5px 10px;
+	border-radius: 12px 12px 0px 0px;
+}
+.sup-btn-whats h3{
+	font-size: 25px;
+}
+.sup-btn-whats p{
+	padding-top: 8px;
+	padding-left: 25px;
+	font-size: 15px;
+	font-family: Poppins;
+}
+.sup-btn-whats i{
+	font-size: 40px;
+}
+.sup-btn-whats i:hover{
+	padding: 0;
+	background: none;
+	
+}
+.con-wa{
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
